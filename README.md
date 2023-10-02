@@ -1,1 +1,3 @@
-# Deep-Learning-Project
+# Deep-Learning-Project : Developping Modular Neural Networks from Scratch
+
+The aim of this project is to develop a python library implementing a neural network. The implementation is inspired by older versions of pytorch (pre autograd) and similar implementations, which provide generic, highly modular networks. Each layer of the network is seen as a module, and a network is thus made up of a set of modules. In particular, activation functions are also considered to be modules. Our library is centred around an abstract Module class. so the first step was to define it. The rest of our project would be based on this main class.
